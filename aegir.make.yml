@@ -1,0 +1,13 @@
+core: "8.x"
+api: 2
+
+projects:
+  drupal:
+    type: "core"
+  hostmaster:
+    type: "profile"
+    version: ~
+    download:
+      url: "http://github.com/jonpugh/hostmaster.git"
+      branch: "8.x-4.x"
+
