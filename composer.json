@@ -1,0 +1,9 @@
+{
+  "name": "aegir/web",
+  "description": "Web interface for the Aegir Hosting System",
+  "type": "drupal-core",
+  "require": {
+    "composer/installers": "^1.0",
+    "aegir/hostmaster": "dev-8.x-4.x"
+  }
+}
