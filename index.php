@@ -2,7 +2,6 @@
 /**
  * THIS FILE IS A COPY FROM DRUPAL CORE.
  *
- * The only difference is the autoload.php file is in vendor.
  * All other files are in ./core and ./vendor.
  */
 
@@ -17,7 +16,7 @@
 use Drupal\Core\DrupalKernel;
 use Symfony\Component\HttpFoundation\Request;
 
-$autoloader = require_once 'vendor\autoload.php';
+$autoloader = require_once 'autoload.php';
 
 $kernel = new DrupalKernel('prod', $autoloader);
 
